@@ -1,0 +1,195 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+
+header{
+    h1{margin-left: 450px;
+        font-size: 75px;
+        font-family:cursive;
+        margin-bottom: 20px;
+        transform: translateY(-20px);
+        opacity: 74%;
+    }
+    .bar{
+        font-size: 40px;
+        cursor: pointer;
+        padding: 10px;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 1000;
+        color: #ffffff80;
+        align-items: center;
+        justify-content: center;
+
+        .bar1, .bar2, .bar3 {
+            width: 35px;
+            height: 5px;
+            background-color: #ffffff80;
+            margin: 6px 0;
+            transition: 0.4s;
+          }
+    }
+}
+
+
+.paragraph{
+     margin-bottom: 50px;
+     font-size: 20px;
+     transform:translateY(-50px);
+     opacity: 74%;
+}
+
+label{
+    opacity: 74%;
+}
+
+input{
+     padding: 10px;
+     margin: 10px;
+     width: 300px;
+     background-color: rgb(0, 0, 0);
+     color: white;
+     border-style: solid;
+     border-radius: 3px;
+     border-color: black;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     border-radius: 8px;
+     text-align: center;
+     
+ }
+body{
+     background-image: 
+     url(iris-flower-field-stretches-majestically-under-warm-sunlight-showcasing-kaleidoscope-colors-its-delicate-exotic-359228431.jpg.webp);
+     background-repeat: no-repeat;
+     background-position: 100%;
+     background-size: cover;
+     padding: 50px;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     height: 100vh;
+}
+
+
+.contact-us{
+     background: rgba(221, 160, 221, 0.552);
+     text-align: center;
+     width: 700px;
+     height: 380px;
+     display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     transform: translateX(24%);
+     font-size: large;
+     margin-left: 12%;
+     margin-bottom: 50%;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     border-radius: 10px;
+
+     
+ }
+ .contact-us:hover{
+
+     box-shadow: 0px 0px 10px 8px aqua;
+     
+     
+     input{
+
+         box-shadow: 0px 0px 10px 6px aqua;
+     }
+     button{
+
+         box-shadow: 0px 0px 10px 3px aqua;
+     }
+     a{
+         color: aqua;
+     }
+     i{
+         color: aqua;
+     }
+ }
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    border-style: none;
+    padding: 10px;
+    margin:5px;
+    font-size: 15px;
+    width: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+     
+    
+
+}
+
+/* bar code */
+
+  .sidebar{
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #00000050;
+    transition: left 0.3s ease;
+    padding-top: 80px;
+    z-index: 999;
+    backdrop-filter: blur(6px);
+  
+    ul{
+        list-style: none;
+        align-items: center;
+        text-align: center;
+        li{
+            list-style: none;
+            margin: 24px;
+            align-items: center;
+            text-align: center;
+            a{
+                color: #fbfcff;
+                text-decoration: none;
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+    }
+  }
+  
+  
+  .sidebar.active {
+    left: 0;
+  }
+
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+  li:hover{
+    box-shadow: 0px 0px 5px 5px #ffffff;
+    a{
+        color: #ffffff;
+    }
+}
+
+
+
+
+
+
+
+
+
+
